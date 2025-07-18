@@ -70,3 +70,29 @@ header {
 }
 
 
+
+/* part3 */
+.part3{
+    text-align: center;
+    margin: 120px 200px;
+     padding: 20px;
+     background-color: lightblue;
+}
+.jtpu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 64px;
+}
+.heading{
+    font-size: 40px;
+}
+.bc{
+    font-size: 64px;
+    font-weight: bold;
+    color: blue;
+}
+.b3{
+    color: #706f80;
+    
+}
