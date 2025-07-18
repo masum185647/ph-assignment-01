@@ -5,7 +5,7 @@
 /* Header */
 header {
     height: 100dvh;
-    background-image: url('Assets/Hero-bg.png');
+    background-image: url('./assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -45,3 +45,28 @@ header {
     margin-top: 20%;
     margin-bottom: 32px;
 }
+
+
+/* action  */
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 16px;
+    margin-bottom: 32px;
+}
+.action-desc{
+     text-align: center;
+}
+.action-desc h2{
+    font-size: 50px;
+    margin-top: 20%;
+    margin-bottom: 16px;
+}
+.action-desc p{
+    color:#252432;
+    margin-bottom: 16px;
+}
+
+
