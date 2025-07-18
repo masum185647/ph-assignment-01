@@ -34,6 +34,12 @@ header {
     color: #fff;
     font-size: 18px;
     font-weight: 500;
+    
+}
+
+.btn-primary:hover {
+    background-color: orange;
+    color: black;
 }
 
 .banner-desc {
@@ -199,4 +205,37 @@ input[type="email"]::placeholder , input[type="text"]::placeholder , textarea::p
 .form-container button {
     width: 100%;
     margin-bottom: 71px;
+}
+
+
+/* Footer design */
+
+ footer {
+    text-align: center;
+    padding-bottom: 104px;
+    background-color: #FFF;
+    box-shadow: inset 0 0 0 1 rgba(0, 0, 0, 0.1);
+
+    h2 {
+        padding-top: 104px;
+        font-family: "Inter";
+        font-size: 100px;
+        font-weight: 900;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-family: "Inter";
+        line-height: 1.5;
+        color: rgba(137, 135, 161, 1);
+        margin-bottom: 20px;
+    }
+
+    a {
+        font-family: "Inter";
+        line-height: 1.5;
+        color: #8987A1;
+        margin-right: 48px;
+        text-decoration: none;
+    }
 }
