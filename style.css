@@ -96,3 +96,35 @@ header {
     color: #706f80;
     
 }
+
+/* part4 */
+.part4{
+    margin-bottom: 40px;
+}
+.part4 h1{
+    text-align: center;
+}
+.Reviewer-container{
+    display: flex;
+    margin: 0 20%;
+}
+.part4 h1{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.desiner{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.R-img{
+    display: flex;
+    margin-top: 16px;
+}
+.R-img img{
+    border-radius: 50%;
+}
+
+.part4 > div {
+    padding: 8px;
+    margin-right: 10px;
+}
